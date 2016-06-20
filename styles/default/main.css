@@ -1,0 +1,791 @@
+
+body, html {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'MS PGothic', 'Meiryo', 'ヒラギノ角ゴシック', 'ヒラギノ角ゴ ProN W3', 'MS Pゴシック', 'メイリオ', sans-serif;
+}
+
+
+.bxslider{
+    padding-left:0px;
+}
+
+#landing-phrase{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+.navbar-wrapper {
+    margin: 0 auto;
+    width: 80% !important;
+    height: 75px;
+    display: block;
+}
+.navbar-align-left {
+    width: 40%;
+    position: relative;
+    vertical-align: middle;    
+}
+.navbar-align-middle {
+    width: 20%;
+    background: url('images/logo.png') center no-repeat;
+    position: relative;
+}
+.navbar-align-right {
+    width: 40%;
+    position: relative;
+    vertical-align: middle;
+    text-align: right;
+}
+.nav-side {
+    width: 100%;
+}
+.nav-option {
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-option:hover {
+    color: #ffb800;
+}
+.nav-option div {
+    font-size: 0.75rem;
+    clear: both;
+}
+
+.navbar-mobile-wrapper {
+    height: 75px !important;
+    display: none !important;
+}
+.navbar-mobile-logo {
+    background: none;
+}
+.navbar-mobile-btn {
+    padding-left: 15%;
+    z-index: 1050;
+}
+.navbar-mobile-menu {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    background: #fff;
+    opacity: 0.9;
+    z-index: 1000;
+    display: none;
+    text-align: center;
+}
+.navbar-mobile-menu ul {
+    top: 20%;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+    text-align: center;
+    font-size: 2rem;
+    border: 1rem 0;
+}
+
+.navbar-mobile-menu ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 9%;
+}
+
+.navbar-wrapper{
+    max-width:930px;
+}
+
+.li-jp {
+    padding-top: 5% !important;
+    border-top: 1px solid black;
+}
+.li-eng {
+    font-size: 1.2rem;
+    padding-bottom: 4% !important;
+    border-bottom: 1px solid black;
+}
+
+.div-table {
+    display: table;
+}
+.div-row {
+    display: table-row;
+}
+.div-cell {
+    display: table-cell;
+}
+
+#section-products{
+	
+	margin-top:5%;
+	
+}
+  .row{
+        margin-right:0px;
+        margin-left:0px ;
+    }
+.site-wrapper {
+    display: table;
+    width: 100%;
+    /*height: 100%;
+    min-height: 100%;*/
+    /*background: url('images/bg-main.jpg') center no-repeat #333;*/
+    background-size: cover
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFF
+}
+
+.inner {
+    padding: 2rem
+}
+
+.inner .cover{
+        margin-top: 20%;
+        margin-bottom: 10%;
+}
+.cover {
+    padding: 0 1.5rem
+}
+
+.clean {
+    clear: both;
+    height: 1px;
+}
+
+.content-centered {
+    margin: 0 auto;
+    text-align: center;
+}
+.content-image {
+    margin: 2rem 0;
+}
+.content-details {
+    /*margin: 0 auto 2rem auto;*/
+	margin: 0 auto 0 auto;
+    width: 60%;
+    color: #717071;
+    line-height: 2rem;
+}
+.content-details-variant {
+    width: 65%;
+}
+
+
+.row {
+    padding-top: 3rem;
+}
+.row-space-inv {
+    padding-top: 0;
+    padding-bottom: 3rem;
+}
+
+.sub-banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-size: cover !important;
+}
+.sub-banner-products {
+    background: url('images/bg-products.jpg') no-repeat center;
+}
+.sub-banner-about {
+    background: url('images/bg-about.jpg') no-repeat center;
+}
+.sub-banner-header {
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+}
+.sub-banner-header-2 {
+    top: 55%;
+}
+
+.product-title{
+	/*margin-top:15px;*/
+	margin-bottom:10px;
+}
+
+.product-title-main{
+    
+    font-size:16px;
+}
+
+.product-title-side{
+    font-size:15px;
+}
+
+
+
+.product-set-details {
+    list-style-position: initial;
+    list-style-type: none;
+    font-size: 12px;
+    color: #727171;
+    text-align: left;
+    margin: 0 auto;
+	
+}
+
+.banner-contact {
+    background: url('images/bg-stripes.png') repeat;
+    width: 90%;
+    margin: 0 auto 3rem auto;
+}
+.banner-contact-header {
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-contact-header div {
+    padding: 1rem;
+}
+.banner-contact-header-left {
+    text-align: left;
+    vertical-align: middle;
+    background: transparent;
+}
+.banner-contact-header-right {
+    text-align: center;
+    font-size: 2rem;
+    vertical-align: middle;
+    background: transparent;
+}
+.banner-contact-header-middle {
+    font-size: 2rem;
+    text-align: center;
+}
+.contact-link, .contact-link:hover{
+   color: #000;
+   text-decoration: none;
+  
+}
+
+.card.banner-contact-header-left{
+	width:100%;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    color: #231815;
+    padding: .75rem 0
+}
+
+.footer a, .footer a:hover {
+    color: #231815;
+    text-decoration: underline;
+}
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 75%;
+}
+.footer-left {
+    width: 5%;
+    text-align: left;
+}
+
+.footer-variant {
+    display: none;
+}
+
+  
+
+
+img {
+    max-width: 100%;
+    height: auto; 
+    
+}
+
+img.mobile-menu-icon {
+    height: 75px;
+    width: auto;
+    margin-top: 2%;
+    
+}
+
+h1 {
+    font-size: 2.0rem;
+    margin-bottom: 1.5rem;
+}
+h2 {
+    font-size: 2rem;
+    color: #231815;
+}
+h3 {
+    font-size: 1.6rem;
+    color: #231815;
+}
+h4 {
+    font-size: 1rem;
+    color: #231815;
+}
+h5 {
+    font-size: 1.2rem;
+    color: #7f4f21;
+}
+.animated-elem {
+    visibility: visible;
+}
+.br-mobile {
+    display: none;
+}
+.br-std {
+    display: block;
+}
+
+#apple-set-one .card-block {
+    padding-top: 1.25rem;
+    padding-right: 0rem;
+    padding-bottom: 1.25rem;
+    padding-left: 0rem;
+}
+#apple-set-two .card-block {
+    padding:1.25rem 1.25rem 1.25rem 0rem;
+}
+
+#apple-set-two .div-cell:last-child img{
+    height:216px;
+
+}
+
+
+/*PC*/
+@media (min-width:40em) {
+  
+/* Watanabe san Test */   
+    
+
+    .row-space-inv h1{
+        margin-top:1em;
+    }
+    .footer-left{
+        width:8%;
+    }
+    .footer-middle{
+    font-size: 17px;
+    padding-top: 3px;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    }
+    
+    .footer-right{
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align:middle;
+    }
+    
+    .footer-mobile-newliner{
+        display:none !important;
+    }
+    
+    .site-wrapper{
+        margin-top:7%;
+    }
+    
+    .site-wrapper-inner {
+        vertical-align: middle
+    }
+    
+    .sliding-image-sp{
+        display:none;
+    }
+    .cover-container {
+        width: 100%
+    }
+	.animated-elem {
+		visibility: collapse;
+	}    
+    .animated-from-left {
+		right: 20px;
+		opacity: 0.0;
+		position: relative;
+    }
+	.animated-from-right {
+		left: 20px;
+		opacity: 0.0;
+		position: relative;
+	}
+	.animated-from-bottom {
+		top: 40px;
+		opacity: 0.0;
+		position: relative;
+	}
+        
+     #product-set-container{
+        display:block;
+    }
+    
+    #apple-set-one .div-cell:nth-child(2)
+    {
+         padding-left:2%;
+    }
+    
+    #apple-set-one .div-cell:last-child{
+    padding-left:6%;
+    }
+    
+    #apple-set-one{
+        padding-right:3%;
+        padding-left:3%;
+    }
+    
+    #apple-set-two{
+        display:none;
+        
+    }
+
+     #landing-phrase img{
+    
+     /*    
+    position: absolute;
+    z-index: 1; 
+    padding-top: 15%;
+    padding-right: 35%;
+    padding-bottom: 30%;
+    padding-left: 35%;
+    bottom:3%;
+    */
+    
+    
+    position: absolute;
+    z-index: 1;
+/*    padding-top: 17%;
+    padding-right: 28%;
+    padding-bottom: 28%;
+    padding-left: 28%;*/
+    top: 0;
+    width: 100%;
+
+}
+   
+    
+    
+}
+@media (max-width:40em) {
+    
+    
+    /*SPのみ別画像の表示*/
+    #apple-dried .card-block img{
+        content:url('../../assets/images/smartphone/img-dried.png');
+    }
+    
+    #apple-confi .card-block img{
+         content:url('../../assets/images/smartphone/img-confi.png');
+    }
+    
+    #apple-conpo .card-block img{
+         content:url('../../assets/images/smartphone/img-compote.png');
+    }
+    
+    #apple-juice .card-block img{
+         content:url('../../assets/images/smartphone/img-juice.png');
+    }
+    
+    #product-set-container{
+        display:none;
+    }
+    
+    #landing-phrase img{
+     
+           position: absolute;
+           content: url('../../assets/images/landing-phrase-sp.png');            
+           top: 30%;
+    }    
+ 
+      .banner-contact{
+        margin-top:10%;
+    }
+
+/*Slider style*/
+
+
+
+.sliding-image{
+    display:none !important;
+}
+
+
+.bx-viewport, .bx-wrapper{
+position:relative;
+width:100%;
+height:450px !important;
+top:0;
+left:0;
+
+
+}
+
+.bxslider, .bxslider li {
+height: 100% !important;;
+
+}
+
+.bxslider li {
+    
+
+background-repeat: no-repeat !important;
+background-position: center center!important;
+background-size: cover;
+    
+width:50% !important;
+
+}
+
+.footer-wrapper{
+    width: 100%;
+}
+.sliding-image-sp{
+    
+    min-height: 100%;
+
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px !important; 
+    /*margin-left:-33%; */
+
+    
+}  
+
+#sliding-image-sp-1{
+        background-image:  url('../../assets/images/slider-image-1.jpg');
+}
+#sliding-image-sp-2{
+        background-image:  url('../../assets/images/slider-image-2.jpg');
+}
+#sliding-image-sp-3{
+        background-image:  url('../../assets/images/slider-image-3.jpg');
+}
+
+    #apple-set-one .card-block,#apple-set-two .card-block{
+        padding:0px;
+    }
+    
+    #apple-set-two{
+        display:block;
+    }
+    
+    
+    
+    .banner-contact{
+        width:100%;
+    }
+    
+    
+    
+    .banner-contact-header-left {
+        text-align: center;
+        font-size:14px;
+    }
+    
+    .banner-contact-header div{
+        
+        padding:3px 3px 0px 3px;
+    }
+     
+    
+    
+    body .row{        
+        margin-right:20px;        
+        margin-left:20px;
+    }
+    
+    
+  
+    .row:nth-child(9), .row:nth-child(10){
+        
+        padding-top: 0px;
+        
+    }
+    
+    .card-block-details{
+        padding-left:10px;
+            padding-right:10px;
+    }
+    
+    .card.banner-contact-header-right{
+        padding:5px 0px 5px 0px;
+    }
+    
+    .card.banner-contact-header-left{
+        margin-bottom:0px;
+    }
+    
+    .card-deck .card-block{
+        padding-left:2%;
+    }
+    
+    .cover {
+        padding: 0 0.1rem
+    }
+    
+    .contact-link{
+        font-size:16px;
+    }
+    
+    
+     .content-details br, .card-block-details br{
+        display:none;
+    }
+  
+   
+    
+    .navbar-wrapper {
+        display: none;
+    }
+    .navbar-mobile-wrapper {
+        display: block !important;
+    }
+    
+    .navbar-mobile-menu.li-eng{
+        margin-bottom:5%;
+    }
+    
+    .navbar-mobile-menu ul li{
+        height:auto;
+    }
+    
+    
+    .navbar-mobile-menu ul li:last-child{
+    
+        border-bottom:1px solid black;    
+    }
+    
+    .navbar-mobile-menu ul .li-jp{
+        font-size:24px;
+    }
+    
+    .navbar-mobile-menu ul .li-eng{
+        padding-left:10px;
+        border-bottom:none;
+        font-size:0.7em;
+    }
+    
+    
+    
+    
+    
+    .footer-wrapper {
+        width: 100%;
+    }
+    .footer-left {
+        width: 40%;
+    }
+    .footer-left img {
+        width: 80%;
+    }
+    .footer-middle {
+        width: 0%;
+        display: none;
+
+    }
+    .footer-right {
+        width: 60%;
+        font-size: 90%;
+        vertical-align: middle;
+    }
+    .footer-variant {
+        display: block;
+        font-size: 80%;
+    }
+    
+    .footer-mobile-newliner{
+        display:block;
+    }
+    
+    .content-details {
+        font-size: 90%;
+        width: 95%;
+    }
+    .br-mobile {
+        display: block;
+    }
+    .br-std {
+        display: none;
+    }
+    .card-block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+	
+   
+	
+    .card-block-details {
+        width: 100% !important;
+    }
+    
+    .product-set-details{
+        padding-left:10px;
+        font-size:14px;
+    }
+    
+    .site-wrapper {
+    background: url('images/bg-main.jpg') center no-repeat #333;
+    background-size: cover;
+    height: 65%;
+    
+    
+}
+    
+.section-concept-head{
+    
+}
+
+    #section-products{
+    margin-top:10%;
+    }
+    
+    #section-contact .banner-contact{
+        margin:0 auto 10% auto;
+    }
+    
+    
+        
+    }
+    
+    
+    
+
+@media (min-width:62em) {
+    .cover-container {
+        width: 42rem
+    }
+}
+
+/* Bootstrap override */
+.navbar {
+    border-radius: 0;
+    padding: .3rem 1.1rem;
+    background-color: rgba(255, 255,255, 0.7);
+}
+.card {
+    border: 0;
+}
+.card-block {
+    text-align: center;
+}
+.card-block-details {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+    color: #b28247;
+}
